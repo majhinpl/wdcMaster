@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors Example</title>
+    <style>
+        /* 1. Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 2. Type Selector */
+        body {
+            width: 1300px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        /* 3. Class Selector */
+        .class {
+            margin-top: 15px;
+        }
+
+        /* 4. ID Selector */
+
+        #id {
+            margin-bottom: 15px;
+        }
+
+        /* 5. Attribute Selector */
+        input[type="text"] {
+            border: 1 px solid green;
+
+        }
+
+        /* 6. Descendand Selector */
+        article p {
+            font-size: 15px;
+        }
+
+        /* 7. Child Selector */
+        div>ul>li {
+            list-style-type: square;
+            background-color: yellow;
+        }
+
+        /* 8. Adjacent sibling selector */
+
+        h1+p {
+            font-weight: bold;
+        }
+
+        /* 9. General sobling selector */
+
+        h2~p {
+            color: red;
+
+        }
+
+        /* 10. Pseudo-class Selector */
+
+        a:hover {
+            color: green
+        }
+
+        /* 11. Pseudo-element Selector */
+
+        p::first-letter {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        /* 12. Grouping Selector */
+
+        h1,
+        h2,
+        p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, fugit. Molestiae corporis illum tempore
+            aliquam esse voluptas assumenda sapiente quam!</p>
+    </article>
+
+</body>
+
+</html>

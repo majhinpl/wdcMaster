@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100dvh;
+            background-color: #000000c9;
+        }
+
+        .signup-page {
+            display: flex;
+            flex-direction: column;
+            background-color: #d8d8d8;
+            padding: 20px;
+            gap: 10px;
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(41, 41, 2);
+        }
+
+        input,
+        button {
+            padding: 15px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        button {
+            background-color: rgb(81, 194, 81);
+            color: rgb(26, 26, 10);
+            text-transform: uppercase;
+        }
+
+        button:hover {
+            opacity: 0.6;
+            cursor: pointer;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .input-group input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signup-page">
+        <h2>Sign Up</h2>
+        <input type="email" name="" id="" placeholder="Enter your email">
+
+        <div class="input-group">
+            <input type="text" name="" id="" placeholder="Enter your first name" required>
+
+            <input type="text" name="" id="" placeholder="Enter your last name" required>
+        </div>
+
+        <input type="password" name="" id="" placeholder="Enter your password" required>
+
+        <button type="submit">Sign Up</button>
+
+    </div>
+
+</body>
+
+</html>
