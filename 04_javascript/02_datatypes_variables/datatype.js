@@ -1,0 +1,16 @@
+/*
+
+String
+Number
+Boolean
+Bingint
+
+undefined
+null
+
+Array
+object
+
+Symbol
+
+*/

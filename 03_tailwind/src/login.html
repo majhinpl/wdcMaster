@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-slate-800 h-screen flex text-center justify-center items-center"
+  >
+    <div
+      class="container flex justify-center items-center p-4 rounded-lg flex-col bg-slate-700 w-1/4 text-white shadow-md shadow-white"
+    >
+      <h1 class="text-4xl mb-10">Log In</h1>
+      <form class="w-full mb-4 mt-4">
+        <div class="mb-4 w-full">
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+            class="p-2 w-full rounded-lg focus:outline-none bg-gray-500 focus:ring-blue-400"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="password"></label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+            class="p-2 w-full rounded-lg focus:outline-none bg-gray-500"
+          />
+        </div>
+        <button
+          type="submit"
+          class="rounded-lg p-2 bg-blue-500 w-full hover:bg-blue-300 border-none"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
